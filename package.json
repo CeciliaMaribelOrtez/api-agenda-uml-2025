@@ -1,0 +1,45 @@
+{
+  "name": "api_agenda",
+  "version": "1.0.0",
+  "description": "sistema de gestion datos personales ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "agenda",
+    "numeros",
+    "node",
+    "prisma",
+    "mysql",
+    "nodemon",
+    "postm"
+  ],
+  "author": "cecilia ortez",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.14.1",
+    "nodemon": "^3.1.10"
+  },
+  "devDependencies": {
+    "eslint": "^9.30.0",
+    "prisma": "^6.10.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CeciliaMaribelOrtez/api-agenda-uml-2025.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CeciliaMaribelOrtez/api-agenda-uml-2025/issues"
+  },
+  "homepage": "https://github.com/CeciliaMaribelOrtez/api-agenda-uml-2025#readme",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  }
+}
